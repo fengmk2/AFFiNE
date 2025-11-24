@@ -8,10 +8,10 @@
   "dependencies": {
     "@blocksuite/affine": "workspace:*",
     "@blocksuite/integration-test": "workspace:*",
-    "@playwright/test": "=1.52.0",
-    "@toeverything/theme": "^1.1.16",
+    "@playwright/test": "catalog:",
+    "@toeverything/theme": "catalog:",
     "json-stable-stringify": "^1.2.1",
-    "rxjs": "^7.8.1"
+    "rxjs": "catalog:"
   },
   "version": "0.25.5"
 }

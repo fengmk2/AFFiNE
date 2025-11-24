@@ -6,11 +6,11 @@
   "private": true,
   "description": "Send copilot result to slack",
   "dependencies": {
-    "@slack/web-api": "^7.8.0",
-    "jsx-slack": "^6.1.2",
-    "marked": "^15.0.3"
+    "@slack/web-api": "catalog:",
+    "jsx-slack": "catalog:",
+    "marked": "catalog:"
   },
   "devDependencies": {
-    "@types/node": "^22.0.0"
+    "@types/node": "catalog:"
   }
 }

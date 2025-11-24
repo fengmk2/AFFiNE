@@ -14,17 +14,17 @@
   "license": "MIT",
   "dependencies": {
     "@blocksuite/affine": "workspace:*",
-    "@blocksuite/icons": "^2.2.17",
-    "@floating-ui/dom": "^1.6.13",
-    "@lit/context": "^1.1.3",
-    "@lottiefiles/dotlottie-wc": "^0.5.0",
-    "@preact/signals-core": "^1.8.0",
-    "@toeverything/theme": "^1.1.16",
-    "@vanilla-extract/css": "^1.17.0",
-    "lit": "^3.2.0",
-    "rxjs": "^7.8.1",
-    "yjs": "^13.6.21",
-    "zod": "^3.23.8"
+    "@blocksuite/icons": "catalog:",
+    "@floating-ui/dom": "catalog:",
+    "@lit/context": "catalog:",
+    "@lottiefiles/dotlottie-wc": "catalog:",
+    "@preact/signals-core": "catalog:",
+    "@toeverything/theme": "catalog:",
+    "@vanilla-extract/css": "catalog:",
+    "lit": "catalog:",
+    "rxjs": "catalog:",
+    "yjs": "catalog:",
+    "zod": "catalog:"
   },
   "exports": {
     ".": "./src/index.ts",
@@ -40,11 +40,11 @@
     "!dist/__tests__"
   ],
   "devDependencies": {
-    "@vanilla-extract/vite-plugin": "^5.0.0",
-    "vite": "^7.0.0",
-    "vite-plugin-istanbul": "^7.0.0",
-    "vite-plugin-wasm": "^3.4.1",
-    "vitest": "3.1.3"
+    "@vanilla-extract/vite-plugin": "catalog:",
+    "vite": "catalog:",
+    "vite-plugin-istanbul": "catalog:",
+    "vite-plugin-wasm": "catalog:",
+    "vitest": "catalog:"
   },
   "version": "0.25.5"
 }

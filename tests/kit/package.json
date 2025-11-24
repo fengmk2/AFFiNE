@@ -13,10 +13,10 @@
   "devDependencies": {
     "@affine-tools/utils": "workspace:*",
     "@blocksuite/affine": "workspace:*",
-    "@node-rs/argon2": "^2.0.2",
-    "@playwright/test": "=1.52.0",
+    "@node-rs/argon2": "catalog:",
+    "@playwright/test": "catalog:",
     "@toeverything/infra": "workspace:*",
-    "express": "^5.0.0",
+    "express": "catalog:",
     "http-proxy-middleware": "^3.0.3"
   },
   "peerDependencies": {
