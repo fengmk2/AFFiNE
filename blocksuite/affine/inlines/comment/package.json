@@ -17,19 +17,19 @@
     "@blocksuite/global": "workspace:*",
     "@blocksuite/std": "workspace:*",
     "@blocksuite/store": "workspace:*",
-    "@lit/context": "^1.1.2",
-    "@preact/signals-core": "^1.8.0",
-    "@toeverything/theme": "^1.1.15",
-    "@types/lodash-es": "^4.17.12",
-    "lit": "^3.2.0",
-    "lit-html": "^3.2.1",
-    "lodash-es": "^4.17.21",
-    "rxjs": "^7.8.1",
-    "yjs": "^13.6.21",
-    "zod": "^3.23.8"
+    "@lit/context": "catalog:",
+    "@preact/signals-core": "catalog:",
+    "@toeverything/theme": "catalog:",
+    "@types/lodash-es": "catalog:",
+    "lit": "catalog:",
+    "lit-html": "catalog:",
+    "lodash-es": "catalog:",
+    "rxjs": "catalog:",
+    "yjs": "catalog:",
+    "zod": "catalog:"
   },
   "devDependencies": {
-    "vitest": "3.1.3"
+    "vitest": "catalog:"
   },
   "exports": {
     ".": "./src/index.ts",

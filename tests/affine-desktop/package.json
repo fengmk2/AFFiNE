@@ -8,9 +8,9 @@
   "devDependencies": {
     "@affine-test/kit": "workspace:*",
     "@affine/electron-api": "workspace:*",
-    "@playwright/test": "=1.52.0",
-    "@types/fs-extra": "^11.0.4",
-    "fs-extra": "^11.2.0",
+    "@playwright/test": "catalog:",
+    "@types/fs-extra": "catalog:",
+    "fs-extra": "catalog:",
     "playwright": "=1.52.0"
   },
   "version": "0.25.5"

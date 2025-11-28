@@ -9,7 +9,7 @@
     "./web-worker": "./src/web-worker.ts"
   },
   "dependencies": {
-    "async-call-rpc": "^6.4.2"
+    "async-call-rpc": "catalog:"
   },
   "devDependencies": {
     "@affine/electron": "workspace:*"

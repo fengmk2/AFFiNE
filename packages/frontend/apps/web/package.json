@@ -15,17 +15,17 @@
     "@affine/i18n": "workspace:*",
     "@affine/nbstore": "workspace:*",
     "@affine/track": "workspace:*",
-    "@emotion/react": "^11.14.0",
-    "@sentry/react": "^9.2.0",
+    "@emotion/react": "catalog:",
+    "@sentry/react": "catalog:",
     "@toeverything/infra": "workspace:*",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router-dom": "^6.28.0"
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "react-router-dom": "catalog:"
   },
   "devDependencies": {
-    "@types/react": "^19.0.1",
-    "@types/react-dom": "^19.0.2",
-    "cross-env": "^7.0.3",
-    "typescript": "^5.7.2"
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "cross-env": "catalog:",
+    "typescript": "catalog:"
   }
 }

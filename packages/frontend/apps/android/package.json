@@ -17,27 +17,27 @@
     "@affine/i18n": "workspace:*",
     "@affine/nbstore": "workspace:*",
     "@blocksuite/affine": "workspace:*",
-    "@blocksuite/icons": "^2.2.17",
+    "@blocksuite/icons": "catalog:",
     "@capacitor/android": "^7.0.0",
-    "@capacitor/app": "^7.0.0",
-    "@capacitor/core": "^7.0.0",
-    "@capacitor/keyboard": "^7.0.0",
+    "@capacitor/app": "catalog:",
+    "@capacitor/core": "catalog:",
+    "@capacitor/keyboard": "catalog:",
     "@capacitor/status-bar": "^7.0.0",
     "@capgo/inappbrowser": "^7.1.0",
-    "@sentry/react": "^9.2.0",
+    "@sentry/react": "catalog:",
     "@toeverything/infra": "workspace:*",
-    "async-call-rpc": "^6.4.2",
-    "idb": "^8.0.0",
-    "next-themes": "^0.4.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router-dom": "^6.28.0"
+    "async-call-rpc": "catalog:",
+    "idb": "catalog:",
+    "next-themes": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "react-router-dom": "catalog:"
   },
   "devDependencies": {
-    "@capacitor/cli": "^7.0.0",
-    "@types/react": "^19.0.1",
-    "@types/react-dom": "^19.0.2",
-    "cross-env": "^7.0.3",
-    "typescript": "^5.7.2"
+    "@capacitor/cli": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "cross-env": "catalog:",
+    "typescript": "catalog:"
   }
 }
