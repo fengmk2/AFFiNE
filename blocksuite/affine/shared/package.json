@@ -73,7 +73,8 @@
     "!dist/__tests__"
   ],
   "devDependencies": {
-    "vitest": "4.0.15"
+    "@voidzero-dev/vite-plus": "catalog:",
+    "vitest": "catalog:"
   },
   "version": "0.25.5"
 }

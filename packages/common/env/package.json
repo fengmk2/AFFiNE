@@ -3,7 +3,8 @@
   "private": true,
   "type": "module",
   "devDependencies": {
-    "vitest": "4.0.15"
+    "@voidzero-dev/vite-plus": "catalog:",
+    "vitest": "catalog:"
   },
   "exports": {
     "./automation": "./src/automation.ts",
