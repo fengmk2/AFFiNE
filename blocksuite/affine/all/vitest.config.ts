@@ -1,5 +1,5 @@
 import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin';
-import { defineConfig } from 'vitest/config';
+import { defineConfig } from '@voidzero-dev/vite-plus';
 
 export default defineConfig({
   esbuild: {

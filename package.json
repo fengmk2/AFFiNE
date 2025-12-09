@@ -27,12 +27,12 @@
     "lint:eslint:fix": "yarn lint:eslint --fix --fix-type problem,suggestion,layout",
     "lint:prettier": "prettier --ignore-unknown --cache --check .",
     "lint:prettier:fix": "prettier --ignore-unknown --cache --write .",
-    "lint:ox": "oxlint -c oxlint.json --deny-warnings",
+    "lint:ox": "vite lint -c oxlint.json --deny-warnings",
     "lint": "yarn lint:eslint && yarn lint:prettier",
     "lint:fix": "yarn lint:eslint:fix && yarn lint:prettier:fix",
-    "test": "vitest --run",
-    "test:ui": "vitest --ui",
-    "test:coverage": "vitest run --coverage",
+    "test": "vite test --run",
+    "test:ui": "vite test --ui",
+    "test:coverage": "vite test run --coverage",
     "typecheck": "tsc -b tsconfig.json --verbose",
     "postinstall": "yarn affine init && yarn husky"
   },
@@ -67,6 +67,7 @@
     "@vitest/browser": "4.0.15",
     "@vitest/coverage-istanbul": "4.0.15",
     "@vitest/ui": "4.0.15",
+    "@voidzero-dev/vite-plus": "catalog:",
     "cross-env": "^7.0.3",
     "electron": "^36.0.0",
     "eslint": "^9.16.0",
@@ -82,17 +83,16 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.0.0",
     "msw": "^2.6.8",
-    "oxlint": "~1.18.0",
     "prettier": "^3.4.2",
     "semver": "^7.6.3",
     "serve": "^14.2.4",
     "typescript": "^5.7.2",
     "typescript-eslint": "^8.18.0",
     "unplugin-swc": "^1.5.1",
-    "vite": "^7.0.0",
-    "vitest": "4.0.15"
+    "vite": "catalog:",
+    "vitest": "catalog:"
   },
-  "packageManager": "yarn@4.9.1",
+  "packageManager": "yarn@4.12.0",
   "resolutions": {
     "array-buffer-byte-length": "npm:@nolyfill/array-buffer-byte-length@^1",
     "array-includes": "npm:@nolyfill/array-includes@^1",
@@ -168,6 +168,8 @@
     "fs-xattr": "npm:@napi-rs/xattr@latest",
     "decode-named-character-reference@npm:^1.0.0": "patch:decode-named-character-reference@npm%3A1.0.2#~/.yarn/patches/decode-named-character-reference-npm-1.0.2-db17a755fd.patch",
     "@atlaskit/pragmatic-drag-and-drop": "patch:@atlaskit/pragmatic-drag-and-drop@npm%3A1.4.0#~/.yarn/patches/@atlaskit-pragmatic-drag-and-drop-npm-1.4.0-75c45f52d3.patch",
-    "yjs": "patch:yjs@npm%3A13.6.21#~/.yarn/patches/yjs-npm-13.6.21-c9f1f3397c.patch"
+    "yjs": "patch:yjs@npm%3A13.6.21#~/.yarn/patches/yjs-npm-13.6.21-c9f1f3397c.patch",
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-3f2b8a1aa3a77891a7cd7f3a70ca5b3350fca497",
+    "vitest": "npm:@voidzero-dev/vite-plus-test@0.0.0-3f2b8a1aa3a77891a7cd7f3a70ca5b3350fca497"
   }
 }

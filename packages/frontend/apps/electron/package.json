@@ -55,6 +55,7 @@
     "@types/set-cookie-parser": "^2.4.10",
     "@types/uuid": "^10.0.0",
     "@vitejs/plugin-react-swc": "^3.7.2",
+    "@voidzero-dev/vite-plus": "catalog:",
     "app-builder-lib": "^26.1.0",
     "builder-util-runtime": "^9.5.0",
     "cross-env": "^7.0.3",
@@ -74,7 +75,7 @@
     "tree-kill": "^1.2.2",
     "ts-node": "^10.9.2",
     "uuid": "^11.0.3",
-    "vitest": "4.0.15",
+    "vitest": "catalog:",
     "zod": "^3.24.1"
   },
   "dependencies": {
