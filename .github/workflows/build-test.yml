@@ -1232,7 +1232,7 @@ jobs:
       - name: Run unit tests
         if: ${{ matrix.spec.test }}
         shell: bash
-        run: yarn affine @affine/electron vitest
+        run: yarn affine @affine/electron vite test
 
       - name: Download web artifact
         uses: ./.github/actions/download-web
