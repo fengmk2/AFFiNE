@@ -19,7 +19,8 @@
   },
   "devDependencies": {
     "@blocksuite/affine": "workspace:*",
-    "vitest": "4.0.15"
+    "@voidzero-dev/vite-plus": "catalog:",
+    "vitest": "catalog:"
   },
   "peerDependencies": {
     "@blocksuite/affine": "workspace:*"

@@ -3,10 +3,16 @@
  */
 
 import { cleanup, render, screen, waitFor } from '@testing-library/react';
+import {
+  afterEach,
+  describe,
+  expect,
+  test,
+  vi,
+} from '@voidzero-dev/vite-plus/test';
 import { useMemo } from 'react';
 import type { Subscriber } from 'rxjs';
 import { Observable } from 'rxjs';
-import { afterEach, describe, expect, test, vi } from 'vitest';
 
 import { LiveData, useLiveData } from '..';
 

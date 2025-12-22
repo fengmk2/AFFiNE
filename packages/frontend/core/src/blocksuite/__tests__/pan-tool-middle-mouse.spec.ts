@@ -8,7 +8,13 @@ import {
   type ToolOptionWithType,
   type ToolType,
 } from '@blocksuite/std/gfx';
-import { beforeEach, describe, expect, test, vi } from 'vitest';
+import {
+  beforeEach,
+  describe,
+  expect,
+  test,
+  vi,
+} from '@voidzero-dev/vite-plus/test';
 
 type SelectionEntry = {
   blockId: string;

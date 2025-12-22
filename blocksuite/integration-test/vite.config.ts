@@ -1,7 +1,7 @@
 import { cpus } from 'node:os';
 
 import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin';
-import { defineConfig } from 'vite';
+import { defineConfig } from '@voidzero-dev/vite-plus';
 import wasm from 'vite-plugin-wasm';
 
 // https://vitejs.dev/config/

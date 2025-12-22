@@ -32,7 +32,8 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "vitest": "4.0.15"
+    "@voidzero-dev/vite-plus": "catalog:",
+    "vitest": "catalog:"
   },
   "exports": {
     ".": "./src/index.ts",

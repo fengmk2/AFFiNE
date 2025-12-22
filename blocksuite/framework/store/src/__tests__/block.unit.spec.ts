@@ -1,5 +1,5 @@
 import { computed, effect } from '@preact/signals-core';
-import { describe, expect, test, vi } from 'vitest';
+import { describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 import * as Y from 'yjs';
 
 import { BlockSchemaExtension } from '../extension/schema.js';

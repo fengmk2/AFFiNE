@@ -1,4 +1,10 @@
-import { beforeEach, describe, expect, test, vi } from 'vitest';
+import {
+  beforeEach,
+  describe,
+  expect,
+  test,
+  vi,
+} from '@voidzero-dev/vite-plus/test';
 import * as Y from 'yjs';
 
 import type { BlockModel, Store } from '../model/index.js';

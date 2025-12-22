@@ -1,6 +1,6 @@
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import rehypeParse from 'rehype-parse';
 import { unified } from 'unified';
-import { describe, expect, test } from 'vitest';
 
 import { onlyContainImgElement } from '../clipboard/utils.js';
 

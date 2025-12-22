@@ -1,7 +1,13 @@
 import { afterEach } from 'node:test';
 
+import {
+  beforeEach,
+  describe,
+  expect,
+  it,
+  vi,
+} from '@voidzero-dev/vite-plus/test';
 import { Observable } from 'rxjs';
-import { beforeEach, describe, expect, it, vi } from 'vitest';
 
 import { OpConsumer } from '../consumer';
 import { type MessageHandlers, transfer } from '../message';

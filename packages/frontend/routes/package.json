@@ -12,9 +12,10 @@
   "devDependencies": {
     "@affine-tools/cli": "workspace:*",
     "@affine-tools/utils": "workspace:*",
+    "@voidzero-dev/vite-plus": "catalog:",
     "path-to-regexp": "^8.2.0",
     "query-string": "^9.1.1",
-    "vitest": "^4.0.15"
+    "vitest": "catalog:"
   },
   "peerDependencies": {
     "react": "^19.1.0",

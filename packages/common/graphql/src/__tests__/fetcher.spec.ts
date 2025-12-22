@@ -1,5 +1,12 @@
-import type { Mock } from 'vitest';
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import type { Mock } from '@voidzero-dev/vite-plus/test';
+import {
+  afterEach,
+  beforeEach,
+  describe,
+  expect,
+  it,
+  vi,
+} from '@voidzero-dev/vite-plus/test';
 
 import { gqlFetcherFactory } from '../fetcher';
 import type { GraphQLQuery } from '../graphql';

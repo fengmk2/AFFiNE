@@ -5,7 +5,12 @@ import {
   NoteDisplayMode,
 } from '@blocksuite/affine/model';
 import type { MindmapElementModel } from '@blocksuite/affine-model';
-import { beforeEach, describe, expect, test } from 'vitest';
+import {
+  beforeEach,
+  describe,
+  expect,
+  test,
+} from '@voidzero-dev/vite-plus/test';
 import * as Y from 'yjs';
 
 import { wait } from '../utils/common.js';

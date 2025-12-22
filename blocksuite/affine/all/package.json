@@ -299,7 +299,8 @@
   "version": "0.25.5",
   "devDependencies": {
     "@vanilla-extract/vite-plugin": "^5.0.0",
+    "@voidzero-dev/vite-plus": "catalog:",
     "msw": "^2.8.4",
-    "vitest": "4.0.15"
+    "vitest": "catalog:"
   }
 }

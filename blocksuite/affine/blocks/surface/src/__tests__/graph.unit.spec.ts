@@ -1,5 +1,5 @@
 import { Bound } from '@blocksuite/global/gfx';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from '@voidzero-dev/vite-plus/test';
 
 import { Graph } from '../utils/graph.js';
 

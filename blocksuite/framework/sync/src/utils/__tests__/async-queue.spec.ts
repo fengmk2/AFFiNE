@@ -1,4 +1,4 @@
-import { describe, expect, test, vi } from 'vitest';
+import { describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 
 import { AsyncQueue } from '../async-queue.js';
 

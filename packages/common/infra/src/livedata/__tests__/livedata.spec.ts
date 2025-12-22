@@ -1,6 +1,6 @@
+import { describe, expect, test, vitest } from '@voidzero-dev/vite-plus/test';
 import type { Subscriber } from 'rxjs';
 import { combineLatest, Observable, of } from 'rxjs';
-import { describe, expect, test, vitest } from 'vitest';
 
 import { LiveData, PoisonedError } from '..';
 

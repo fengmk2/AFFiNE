@@ -4,8 +4,8 @@
 
 import { JOURNAL_DATE_FORMAT } from '@affine/core/modules/journal';
 import { I18n } from '@affine/i18n';
+import { describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 import dayjs from 'dayjs';
-import { describe, expect, test, vi } from 'vitest';
 
 vi.mock('emoji-mart', () => {
   return {

@@ -1,5 +1,12 @@
+import {
+  assert,
+  beforeEach,
+  describe,
+  expect,
+  it,
+  vi,
+} from '@voidzero-dev/vite-plus/test';
 import type { Subject } from 'rxjs';
-import { assert, beforeEach, describe, expect, it, vi } from 'vitest';
 import { applyUpdate, type Doc, encodeStateAsUpdate } from 'yjs';
 
 import type { BlockModel, DocMeta, Store } from '../index.js';

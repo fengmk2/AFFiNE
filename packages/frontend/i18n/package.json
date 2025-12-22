@@ -29,7 +29,8 @@
   "devDependencies": {
     "@affine-tools/cli": "workspace:*",
     "@affine-tools/utils": "workspace:*",
+    "@voidzero-dev/vite-plus": "catalog:",
     "glob": "^11.0.0",
-    "vitest": "4.0.15"
+    "vitest": "catalog:"
   }
 }

@@ -1,6 +1,6 @@
 import 'fake-indexeddb/auto';
 
-import { expect, test } from 'vitest';
+import { expect, test } from '@voidzero-dev/vite-plus/test';
 import { Doc as YDoc, encodeStateAsUpdate } from 'yjs';
 
 import {

@@ -3,7 +3,12 @@ import {
   DefaultTool,
   type SurfaceBlockComponent,
 } from '@blocksuite/affine/blocks/surface';
-import { beforeEach, describe, expect, test } from 'vitest';
+import {
+  beforeEach,
+  describe,
+  expect,
+  test,
+} from '@voidzero-dev/vite-plus/test';
 
 import { click, drag, wait } from '../utils/common.js';
 import { addNote, getDocRootBlock, getSurface } from '../utils/edgeless.js';

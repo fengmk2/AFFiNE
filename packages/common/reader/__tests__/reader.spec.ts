@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
 
-import { expect, test } from 'vitest';
+import { expect, test } from '@voidzero-dev/vite-plus/test';
 import { applyUpdate, Array as YArray, Doc as YDoc, Map as YMap } from 'yjs';
 
 import {

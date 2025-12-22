@@ -6,9 +6,16 @@ import {
   type BlockSnapshot,
   MemoryBlobCRUD,
 } from '@blocksuite/store';
+import {
+  afterAll,
+  afterEach,
+  beforeAll,
+  describe,
+  expect,
+  test,
+} from '@voidzero-dev/vite-plus/test';
 import { http, HttpResponse } from 'msw';
 import { setupServer } from 'msw/node';
-import { afterAll, afterEach, beforeAll, describe, expect, test } from 'vitest';
 
 import { createJob } from '../utils/create-job.js';
 import { getProvider } from '../utils/get-provider.js';

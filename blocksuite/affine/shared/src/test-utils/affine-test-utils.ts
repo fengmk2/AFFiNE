@@ -1,5 +1,5 @@
 import type { BlockModel, Store } from '@blocksuite/store';
-import { expect } from 'vitest';
+import { expect } from '@voidzero-dev/vite-plus/test';
 
 declare module 'vitest' {
   interface Assertion<T = any> {

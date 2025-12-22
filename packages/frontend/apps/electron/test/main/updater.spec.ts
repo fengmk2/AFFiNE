@@ -1,12 +1,6 @@
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-import type { UpdateCheckResult } from 'electron-updater';
-import { parseUpdateInfo } from 'electron-updater/out/providers/Provider';
-import fs from 'fs-extra';
-import { flatten } from 'lodash-es';
-import { http, HttpResponse } from 'msw';
-import { setupServer } from 'msw/node';
 import {
   afterAll,
   afterEach,
@@ -15,7 +9,13 @@ import {
   expect,
   it,
   vi,
-} from 'vitest';
+} from '@voidzero-dev/vite-plus/test';
+import type { UpdateCheckResult } from 'electron-updater';
+import { parseUpdateInfo } from 'electron-updater/out/providers/Provider';
+import fs from 'fs-extra';
+import { flatten } from 'lodash-es';
+import { http, HttpResponse } from 'msw';
+import { setupServer } from 'msw/node';
 
 import {
   AFFiNEUpdateProvider,

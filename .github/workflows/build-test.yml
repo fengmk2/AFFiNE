@@ -22,6 +22,7 @@ env:
   MACOSX_DEPLOYMENT_TARGET: '11.6'
   DEPLOYMENT_TYPE: affine
   AFFINE_INDEXER_ENABLED: true
+  VP_TOKEN: ${{ secrets.VP_TOKEN }}
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}

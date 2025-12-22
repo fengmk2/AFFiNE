@@ -1,7 +1,14 @@
 /**
  * @vitest-environment happy-dom
  */
-import { beforeAll, beforeEach, describe, expect, test, vi } from 'vitest';
+import {
+  beforeAll,
+  beforeEach,
+  describe,
+  expect,
+  test,
+  vi,
+} from '@voidzero-dev/vite-plus/test';
 
 import { enableAutoTrack, makeTracker } from '../auto';
 

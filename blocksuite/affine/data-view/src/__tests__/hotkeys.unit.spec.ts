@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 
 import { TableHotkeysController } from '../view-presets/table/pc/controller/hotkeys.js';
 import { TableHotkeysController as VirtualHotkeysController } from '../view-presets/table/pc-virtual/controller/hotkeys.js';

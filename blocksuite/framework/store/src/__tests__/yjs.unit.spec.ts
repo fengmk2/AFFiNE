@@ -1,5 +1,5 @@
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 import { Subject } from 'rxjs';
-import { describe, expect, test } from 'vitest';
 import * as Y from 'yjs';
 
 import { ReactiveFlatYMap } from '../reactive/flat-native-y/index.js';

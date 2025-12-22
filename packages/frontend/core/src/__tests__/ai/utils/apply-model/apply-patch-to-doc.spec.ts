@@ -4,7 +4,7 @@
 import { getInternalStoreExtensions } from '@blocksuite/affine/extensions/store';
 import { StoreExtensionManager } from '@blocksuite/affine-ext-loader';
 import { createAffineTemplate } from '@blocksuite/affine-shared/test-utils';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from '@voidzero-dev/vite-plus/test';
 
 import { applyPatchToDoc } from '../../../../blocksuite/ai/utils/apply-model/apply-patch-to-doc';
 import type { PatchOp } from '../../../../blocksuite/ai/utils/apply-model/markdown-diff';

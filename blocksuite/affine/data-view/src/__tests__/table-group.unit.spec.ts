@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 
 import { mobileEffects } from '../view-presets/table/mobile/effect.js';
 import type { MobileTableGroup } from '../view-presets/table/mobile/group.js';

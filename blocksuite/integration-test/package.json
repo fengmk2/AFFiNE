@@ -3,9 +3,9 @@
   "description": "Integration test for BlockSuite",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite dev",
     "build": "tsc",
-    "test:unit": "vitest --browser.headless --run",
+    "test:unit": "vite test --browser.headless --run",
     "test:debug": "PWDEBUG=1 npx vitest"
   },
   "sideEffects": false,
@@ -41,10 +41,11 @@
   ],
   "devDependencies": {
     "@vanilla-extract/vite-plugin": "^5.0.0",
-    "vite": "^7.0.0",
+    "@voidzero-dev/vite-plus": "catalog:",
+    "vite": "catalog:",
     "vite-plugin-istanbul": "^7.0.0",
     "vite-plugin-wasm": "^3.4.1",
-    "vitest": "4.0.15"
+    "vitest": "catalog:"
   },
   "version": "0.25.5"
 }

@@ -1,4 +1,4 @@
-import { vi } from 'vitest';
+import { vi } from '@voidzero-dev/vite-plus/test';
 
 vi.mock('lottie-web', () => ({
   default: {},

@@ -4,7 +4,13 @@
  */
 import { ServerFeature } from '@affine/graphql';
 import { renderHook, waitFor } from '@testing-library/react';
-import { beforeEach, describe, expect, test, vi } from 'vitest';
+import {
+  beforeEach,
+  describe,
+  expect,
+  test,
+  vi,
+} from '@voidzero-dev/vite-plus/test';
 
 // mocks
 const signOutFn = vi.fn();

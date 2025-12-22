@@ -1,6 +1,6 @@
 import { Container } from '@blocksuite/global/di';
 import { type ExtensionType } from '@blocksuite/store';
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 import { z } from 'zod';
 
 import { ExtensionManager } from '../manager';
