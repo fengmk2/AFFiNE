@@ -2251,6 +2251,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/generator@npm:^7.28.5":
+  version: 7.28.5
+  resolution: "@babel/generator@npm:7.28.5"
+  dependencies:
+    "@babel/parser": "npm:^7.28.5"
+    "@babel/types": "npm:^7.28.5"
+    "@jridgewell/gen-mapping": "npm:^0.3.12"
+    "@jridgewell/trace-mapping": "npm:^0.3.28"
+    jsesc: "npm:^3.0.2"
+  checksum: 10/ae618f0a17a6d76c3983e1fd5d9c2f5fdc07703a119efdb813a7d9b8ad4be0a07d4c6f0d718440d2de01a68e321f64e2d63c77fc5d43ae47ae143746ef28ac1f
+  languageName: node
+  linkType: hard
+
 "@babel/helper-compilation-targets@npm:^7.27.1":
   version: 7.27.2
   resolution: "@babel/helper-compilation-targets@npm:7.27.2"
@@ -7996,7 +8009,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/gen-mapping@npm:^0.3.13":
+"@jridgewell/gen-mapping@npm:^0.3.12, @jridgewell/gen-mapping@npm:^0.3.13":
   version: 0.3.13
   resolution: "@jridgewell/gen-mapping@npm:0.3.13"
   dependencies:
@@ -8048,7 +8061,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jridgewell/trace-mapping@npm:0.3.31":
+"@jridgewell/trace-mapping@npm:0.3.31, @jridgewell/trace-mapping@npm:^0.3.28":
   version: 0.3.31
   resolution: "@jridgewell/trace-mapping@npm:0.3.31"
   dependencies:
@@ -11247,10 +11260,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@oxc-project/runtime@npm:=0.101.0":
-  version: 0.101.0
-  resolution: "@oxc-project/runtime@npm:0.101.0"
-  checksum: 10/63ab6948fff1f7a980d06c6b48d518f46f9ff1cbaaa22618853ce9117a50d618e5b9123f9f192d5675ad51e583d9585913accb10f5f128a1b1995686d188a3d2
+"@oxc-project/runtime@npm:=0.106.0":
+  version: 0.106.0
+  resolution: "@oxc-project/runtime@npm:0.106.0"
+  checksum: 10/55807a3e26bb6bc7be208a03e06916e33dea70d6f3cecc7098af1453503e2c7d4a578323a8fe08225c14df05e6b70e33685d18bb65349294289b76a3cd815d5a
   languageName: node
   linkType: hard
 
@@ -16909,20 +16922,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@voidzero-dev/vite-plus-core@npm:0.0.0-2fa214c1c9a660e338e5f9d938c52316ed926a52, vite@npm:@voidzero-dev/vite-plus-core@latest":
-  version: 0.0.0-2fa214c1c9a660e338e5f9d938c52316ed926a52
-  resolution: "@voidzero-dev/vite-plus-core@npm:0.0.0-2fa214c1c9a660e338e5f9d938c52316ed926a52::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40voidzero-dev%2Fvite-plus-core%2F0.0.0-2fa214c1c9a660e338e5f9d938c52316ed926a52%2F908a21b3e32879d890739eb7c413882b4170b22b"
+"@voidzero-dev/vite-plus-core@npm:0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3, vite@npm:@voidzero-dev/vite-plus-core@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3":
+  version: 0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3
+  resolution: "@voidzero-dev/vite-plus-core@npm:0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40voidzero-dev%2Fvite-plus-core%2F0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3%2F360cb280f200df8d4960169a08bd6fc2beae7279"
   dependencies:
-    "@oxc-project/runtime": "npm:=0.101.0"
+    "@babel/generator": "npm:^7.28.5"
+    "@babel/parser": "npm:^7.28.5"
+    "@babel/types": "npm:^7.28.5"
+    "@oxc-project/runtime": "npm:=0.106.0"
     fsevents: "npm:~2.3.3"
     lightningcss: "npm:^1.30.2"
+    picomatch: "npm:^4.0.3"
     postcss: "npm:^8.5.6"
     semver: "npm:^7.7.3"
     tree-kill: "npm:^1.2.2"
   peerDependencies:
     "@arethetypeswrong/core": ^0.18.1
     "@types/node": ^20.19.0 || >=22.12.0
-    "@vitejs/devtools": ^0.0.0-alpha.18
+    "@vitejs/devtools": "*"
     esbuild: ^0.25.0
     jiti: ">=1.21.0"
     less: ^4.0.0
@@ -16940,16 +16957,16 @@ __metadata:
   dependenciesMeta:
     fsevents:
       optional: true
-  checksum: 10/e7659374ab44786eabdd13bf907e36a51b705a7d099d9d397f39512a2b0fdf16182851a6282c1b1e6c3b105d4ff68fad2187d9e20435d06226592490a780dfb7
+  checksum: 10/912d4d1b4fc554b6cb4fb710781351207d655648da8dc48ab7bad2cfc8728a16cc12cc7fe89b8ff71bb5bbab06102d91e3568f25bc1de166934a06c34ebad332
   languageName: node
   linkType: hard
 
-"@voidzero-dev/vite-plus-test@npm:0.0.0-2fa214c1c9a660e338e5f9d938c52316ed926a52, vitest@npm:@voidzero-dev/vite-plus-test@latest":
-  version: 0.0.0-2fa214c1c9a660e338e5f9d938c52316ed926a52
-  resolution: "@voidzero-dev/vite-plus-test@npm:0.0.0-2fa214c1c9a660e338e5f9d938c52316ed926a52::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40voidzero-dev%2Fvite-plus-test%2F0.0.0-2fa214c1c9a660e338e5f9d938c52316ed926a52%2F44c0ffffc7e92fa59460faf4e45892361b732570"
+"@voidzero-dev/vite-plus-test@npm:0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3, vitest@npm:@voidzero-dev/vite-plus-test@0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3":
+  version: 0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3
+  resolution: "@voidzero-dev/vite-plus-test@npm:0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40voidzero-dev%2Fvite-plus-test%2F0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3%2F5a0d191ec6c144319046f481d9807af081b4f43c"
   dependencies:
     "@types/chai": "npm:^5.2.2"
-    "@voidzero-dev/vite-plus-core": "npm:0.0.0-2fa214c1c9a660e338e5f9d938c52316ed926a52"
+    "@voidzero-dev/vite-plus-core": "npm:0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3"
     es-module-lexer: "npm:^1.7.0"
     expect-type: "npm:^1.2.2"
     obug: "npm:^2.1.1"
@@ -16966,26 +16983,27 @@ __metadata:
     "@edge-runtime/vm": "*"
     "@opentelemetry/api": ^1.9.0
     "@types/node": ^20.0.0 || ^22.0.0 || >=24.0.0
-    "@vitest/ui": 4.0.15
+    "@vitest/ui": 4.0.16
     happy-dom: "*"
     jsdom: "*"
-  checksum: 10/b9f7b947c1b9c2125896b7b73346bd10ff749089e54d07cf4e5c6fbe304073c165925f89b50b6f7f7bfd551b072b748d46027090d1c738e5ff3834f9d795a717
+  checksum: 10/98085e229439e8a235a1f8fdd7b7eb388f202bb5c5e89076bda703ee10d99c881ea747ff844d9ee00e2136dc60b80993f99b59121644aba2308086771387337f
   languageName: node
   linkType: hard
 
-"@voidzero-dev/vite-plus@npm:latest":
-  version: 0.0.0-2fa214c1c9a660e338e5f9d938c52316ed926a52
-  resolution: "@voidzero-dev/vite-plus@npm:0.0.0-2fa214c1c9a660e338e5f9d938c52316ed926a52::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40voidzero-dev%2Fvite-plus%2F0.0.0-2fa214c1c9a660e338e5f9d938c52316ed926a52%2F00328bc4e8e124cd168ce147cd0d3ced959f59ec"
+"@voidzero-dev/vite-plus@npm:0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3":
+  version: 0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3
+  resolution: "@voidzero-dev/vite-plus@npm:0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40voidzero-dev%2Fvite-plus%2F0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3%2Fe190b59c8e2040f6db9f910262cfa04eafdfab81"
   dependencies:
-    "@voidzero-dev/vite-plus-core": "npm:0.0.0-2fa214c1c9a660e338e5f9d938c52316ed926a52"
-    "@voidzero-dev/vite-plus-test": "npm:0.0.0-2fa214c1c9a660e338e5f9d938c52316ed926a52"
+    "@voidzero-dev/vite-plus-core": "npm:0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3"
+    "@voidzero-dev/vite-plus-test": "npm:0.0.0-fb0e891a1a0697c298b9ab87113bf8b98ba131c3"
+    cac: "npm:^6.7.14"
     oxfmt: "npm:^0.16.0"
     oxlint: "npm:^1.31.0"
     oxlint-tsgolint: "npm:^0.8.3"
   bin:
     vite: bin/vite
     vite-plus: bin/vite
-  checksum: 10/455e18147f3511988bcdec5c950f0d5e66d892653e17383a7adb16bdfc7f59425a58f040cf0bd18bf743dc11f05df725cb599c18f6ee7cded7d586e84c9ca161
+  checksum: 10/321196077a63abbadeffe59c953147cc59665ffe95e8a96dede8353c6586f8153d4b602850106dad8f8b90f7290c8416794feaf8a81a81e1559859ffd6825fdb
   languageName: node
   linkType: hard
 
