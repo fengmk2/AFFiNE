@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 
 import { getOrCreateI18n, I18n } from '../../';
 import { i18nTime } from '../time';

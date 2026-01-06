@@ -3,7 +3,12 @@ import {
   EdgelessRootService,
 } from '@blocksuite/affine/blocks/root';
 import type { DocSnapshot } from '@blocksuite/store';
-import { beforeEach, describe, expect, test } from 'vitest';
+import {
+  beforeEach,
+  describe,
+  expect,
+  test,
+} from '@voidzero-dev/vite-plus/test';
 
 import { wait } from '../utils/common.js';
 import { addNote, getDocRootBlock } from '../utils/edgeless.js';

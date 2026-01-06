@@ -15,6 +15,7 @@
   "devDependencies": {
     "@types/mixpanel-browser": "^2.50.2",
     "@types/react": "^19.0.1",
-    "vitest": "4.0.15"
+    "@voidzero-dev/vite-plus": "catalog:",
+    "vitest": "catalog:"
   }
 }

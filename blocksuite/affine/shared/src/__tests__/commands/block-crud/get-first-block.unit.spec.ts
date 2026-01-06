@@ -1,7 +1,7 @@
 /**
  * @vitest-environment happy-dom
  */
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from '@voidzero-dev/vite-plus/test';
 
 import { getFirstBlockCommand } from '../../../commands/block-crud/get-first-content-block';
 import { affine } from '../../../test-utils';

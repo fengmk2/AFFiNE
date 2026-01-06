@@ -10,7 +10,8 @@
   },
   "devDependencies": {
     "@types/debug": "^4.1.12",
-    "vitest": "4.0.15"
+    "@voidzero-dev/vite-plus": "catalog:",
+    "vitest": "catalog:"
   },
   "version": "0.25.5"
 }

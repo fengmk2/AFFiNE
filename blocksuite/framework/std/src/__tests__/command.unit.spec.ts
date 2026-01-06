@@ -1,4 +1,10 @@
-import { beforeEach, describe, expect, test, vi } from 'vitest';
+import {
+  beforeEach,
+  describe,
+  expect,
+  test,
+  vi,
+} from '@voidzero-dev/vite-plus/test';
 
 import type { Command } from '../command/index.js';
 import { CommandManager } from '../command/index.js';

@@ -1,6 +1,6 @@
 import type { IVec, IVec3 } from '@blocksuite/global/gfx';
 import { almostEqual } from '@blocksuite/global/gfx';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from '@voidzero-dev/vite-plus/test';
 
 import { AStarRunner } from '../utils/a-star.js';
 

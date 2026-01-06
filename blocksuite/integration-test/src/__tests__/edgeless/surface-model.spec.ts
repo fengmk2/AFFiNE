@@ -4,7 +4,12 @@ import type {
   ConnectorElementModel,
   GroupElementModel,
 } from '@blocksuite/affine/model';
-import { beforeEach, describe, expect, test } from 'vitest';
+import {
+  beforeEach,
+  describe,
+  expect,
+  test,
+} from '@voidzero-dev/vite-plus/test';
 
 import { wait } from '../utils/common.js';
 import { setupEditor } from '../utils/setup.js';

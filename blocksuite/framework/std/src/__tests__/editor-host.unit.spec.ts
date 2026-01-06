@@ -2,7 +2,7 @@ import {
   createAutoIncrementIdGenerator,
   TestWorkspace,
 } from '@blocksuite/store/test';
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 
 import { effects } from '../effects.js';
 import { TestEditorContainer } from './test-editor.js';

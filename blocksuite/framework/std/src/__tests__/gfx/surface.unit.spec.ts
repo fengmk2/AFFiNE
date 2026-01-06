@@ -2,7 +2,7 @@ import {
   createAutoIncrementIdGenerator,
   TestWorkspace,
 } from '@blocksuite/store/test';
-import { describe, expect, test, vi } from 'vitest';
+import { describe, expect, test, vi } from '@voidzero-dev/vite-plus/test';
 
 import { effects } from '../../effects.js';
 import type { TestShapeElement } from '../test-gfx-element.js';

@@ -1,5 +1,5 @@
+import { describe, expect, it, vi } from '@voidzero-dev/vite-plus/test';
 import { literal } from 'lit/static-html.js';
-import { describe, expect, it, vi } from 'vitest';
 
 import { BlockSchemaExtension } from '../extension/schema.js';
 import { defineBlockSchema } from '../model/block/zod.js';

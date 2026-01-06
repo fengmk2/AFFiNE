@@ -22,6 +22,7 @@ env:
   MACOSX_DEPLOYMENT_TARGET: '11.6'
   DEPLOYMENT_TYPE: affine
   AFFINE_INDEXER_ENABLED: true
+  VP_TOKEN: ${{ secrets.VP_TOKEN }}
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -1231,7 +1232,7 @@ jobs:
       - name: Run unit tests
         if: ${{ matrix.spec.test }}
         shell: bash
-        run: yarn affine @affine/electron vitest
+        run: yarn affine @affine/electron vite test
 
       - name: Download web artifact
         uses: ./.github/actions/download-web

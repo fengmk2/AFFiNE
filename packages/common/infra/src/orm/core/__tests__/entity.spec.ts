@@ -1,5 +1,11 @@
+import {
+  beforeEach,
+  describe,
+  expect,
+  test as t,
+  type TestAPI,
+} from '@voidzero-dev/vite-plus/test';
 import { nanoid } from 'nanoid';
-import { beforeEach, describe, expect, test as t, type TestAPI } from 'vitest';
 
 import {
   createORMClient,

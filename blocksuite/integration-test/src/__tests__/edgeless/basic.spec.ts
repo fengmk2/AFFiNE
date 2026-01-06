@@ -1,6 +1,11 @@
 import { LocalShapeElementModel } from '@blocksuite/affine-model';
 import { Text } from '@blocksuite/store';
-import { beforeEach, describe, expect, test } from 'vitest';
+import {
+  beforeEach,
+  describe,
+  expect,
+  test,
+} from '@voidzero-dev/vite-plus/test';
 
 import { addNote, getSurface } from '../utils/edgeless.js';
 import { setupEditor } from '../utils/setup.js';

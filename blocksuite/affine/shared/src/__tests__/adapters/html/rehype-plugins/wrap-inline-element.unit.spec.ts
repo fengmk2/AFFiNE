@@ -1,7 +1,7 @@
+import { describe, expect, it } from '@voidzero-dev/vite-plus/test';
 import rehypeParse from 'rehype-parse';
 import rehypeStringify from 'rehype-stringify';
 import { unified } from 'unified';
-import { describe, expect, it } from 'vitest';
 
 import { rehypeWrapInlineElements } from '../../../../adapters/html/rehype-plugins/wrap-inline-element';
 

@@ -4,7 +4,12 @@ import type { FrameBlockModel } from '@blocksuite/affine/model';
 import type { AffineFrameTitleWidget } from '@blocksuite/affine/widgets/frame-title';
 import { assertType } from '@blocksuite/global/utils';
 import { Text } from '@blocksuite/store';
-import { beforeEach, describe, expect, test } from 'vitest';
+import {
+  beforeEach,
+  describe,
+  expect,
+  test,
+} from '@voidzero-dev/vite-plus/test';
 
 import { wait } from '../utils/common.js';
 import { getDocRootBlock } from '../utils/edgeless.js';

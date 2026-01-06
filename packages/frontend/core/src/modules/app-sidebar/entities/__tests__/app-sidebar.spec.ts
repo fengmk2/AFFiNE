@@ -1,5 +1,10 @@
 import { Framework, MemoryMemento } from '@toeverything/infra';
-import { beforeEach, describe, expect, test } from 'vitest';
+import {
+  beforeEach,
+  describe,
+  expect,
+  test,
+} from '@voidzero-dev/vite-plus/test';
 
 import { AppSidebarState } from '../../providers/storage';
 import { AppSidebar } from '../app-sidebar';

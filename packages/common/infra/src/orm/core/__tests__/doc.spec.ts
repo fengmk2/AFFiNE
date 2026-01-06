@@ -4,7 +4,7 @@ import {
   expect,
   test as vitest,
   type TestAPI,
-} from 'vitest';
+} from '@voidzero-dev/vite-plus/test';
 
 import {
   createORMClient,

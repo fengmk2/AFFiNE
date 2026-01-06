@@ -11,7 +11,12 @@ import type {
 import { generateKeyBetween } from '@blocksuite/affine/std/gfx';
 import type { BlockComponent } from '@blocksuite/std';
 import type { BlockModel, Store } from '@blocksuite/store';
-import { beforeEach, describe, expect, test } from 'vitest';
+import {
+  beforeEach,
+  describe,
+  expect,
+  test,
+} from '@voidzero-dev/vite-plus/test';
 import * as Y from 'yjs';
 
 import { wait } from '../utils/common.js';

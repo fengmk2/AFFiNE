@@ -1,11 +1,11 @@
-import { nanoid } from 'nanoid';
 import {
   beforeEach,
   describe,
   expect,
   test as vitest,
   type TestAPI,
-} from 'vitest';
+} from '@voidzero-dev/vite-plus/test';
+import { nanoid } from 'nanoid';
 import { Doc } from 'yjs';
 
 import {

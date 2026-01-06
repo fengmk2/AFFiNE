@@ -17,8 +17,9 @@
     "@graphql-codegen/typescript": "^4.1.2",
     "@graphql-codegen/typescript-operations": "^4.4.0",
     "@types/lodash-es": "^4.17.12",
+    "@voidzero-dev/vite-plus": "catalog:",
     "prettier": "^3.4.2",
-    "vitest": "4.0.15"
+    "vitest": "catalog:"
   },
   "scripts": {
     "build": "gql-gen --errors-only"

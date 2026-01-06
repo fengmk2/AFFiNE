@@ -1,4 +1,4 @@
-import { expect, test, vitest } from 'vitest';
+import { expect, test, vitest } from '@voidzero-dev/vite-plus/test';
 
 import { AutoReconnectConnection } from '../connection';
 

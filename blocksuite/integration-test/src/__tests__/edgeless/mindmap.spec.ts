@@ -2,7 +2,12 @@ import type { MindMapView } from '@blocksuite/affine/gfx/mindmap';
 import { LayoutType, type MindmapElementModel } from '@blocksuite/affine-model';
 import { Bound } from '@blocksuite/global/gfx';
 import type { GfxController } from '@blocksuite/std/gfx';
-import { beforeEach, describe, expect, test } from 'vitest';
+import {
+  beforeEach,
+  describe,
+  expect,
+  test,
+} from '@voidzero-dev/vite-plus/test';
 
 import { click, pointermove, wait } from '../utils/common.js';
 import { getDocRootBlock } from '../utils/edgeless.js';

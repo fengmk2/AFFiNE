@@ -1,4 +1,4 @@
-import { expect } from 'vitest';
+import { expect } from '@voidzero-dev/vite-plus/test';
 import { applyUpdate, Doc as YDoc } from 'yjs';
 
 export function expectYjsEqual(

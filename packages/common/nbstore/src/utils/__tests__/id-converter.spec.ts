@@ -1,4 +1,4 @@
-import { beforeAll, describe, expect, it } from 'vitest';
+import { beforeAll, describe, expect, it } from '@voidzero-dev/vite-plus/test';
 
 import { getIdConverter, type IdConverter } from '../id-converter';
 

@@ -7,8 +7,14 @@ import { getStoreManager } from '@affine/core/blocksuite/manager/store';
 import { type Store, Text } from '@blocksuite/affine/store';
 import { TestWorkspace } from '@blocksuite/affine/store/test';
 import { renderHook } from '@testing-library/react';
+import {
+  beforeEach,
+  describe,
+  expect,
+  test,
+  vi,
+} from '@voidzero-dev/vite-plus/test';
 import { useAtomValue } from 'jotai';
-import { beforeEach, describe, expect, test, vi } from 'vitest';
 
 import { useBlockSuitePagePreview } from '../use-block-suite-page-preview';
 let docCollection: TestWorkspace;

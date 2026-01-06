@@ -8,7 +8,7 @@ import type {
   DocSnapshot,
   TransformerMiddleware,
 } from '@blocksuite/store';
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from '@voidzero-dev/vite-plus/test';
 
 import { createJob } from '../utils/create-job.js';
 import { getProvider } from '../utils/get-provider.js';
