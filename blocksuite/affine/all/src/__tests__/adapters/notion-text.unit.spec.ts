@@ -1,7 +1,7 @@
 import { DefaultTheme } from '@blocksuite/affine-model';
 import { NotionTextAdapter } from '@blocksuite/affine-shared/adapters';
 import type { SliceSnapshot } from '@blocksuite/store';
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 
 import { createJob } from '../utils/create-job.js';
 import { getProvider } from '../utils/get-provider.js';

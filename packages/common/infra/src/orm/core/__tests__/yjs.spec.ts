@@ -5,7 +5,7 @@ import {
   expect,
   test as vitest,
   type TestAPI,
-} from 'vitest';
+} from 'vite-plus/test';
 import { Doc } from 'yjs';
 
 import {

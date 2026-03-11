@@ -1,7 +1,7 @@
 import type { BlockModel, Store } from '@blocksuite/store';
-import { expect } from 'vitest';
+import { expect } from 'vite-plus/test';
 
-declare module 'vitest' {
+declare module 'vite-plus/test' {
   interface Assertion<T = any> {
     toEqualDoc(expected: Store, options?: { compareId?: boolean }): T;
   }

@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vite-plus/test';
 
 import {
   AutoMessageHandler,
@@ -21,7 +21,7 @@ class CustomMessageHandler extends AutoMessageHandler {
   };
 }
 
-declare module 'vitest' {
+declare module 'vite-plus/test' {
   interface TestContext {
     sendPort: MessageCommunicapable;
     receivePort: MessageCommunicapable;

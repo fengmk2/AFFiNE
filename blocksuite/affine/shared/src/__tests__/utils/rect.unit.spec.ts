@@ -1,5 +1,5 @@
 import { Point } from '@blocksuite/global/gfx';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 
 describe('Point', () => {
   it('should return a min point', () => {

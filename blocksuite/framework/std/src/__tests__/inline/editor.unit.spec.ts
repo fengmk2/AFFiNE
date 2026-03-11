@@ -1,4 +1,4 @@
-import { expect, test } from 'vitest';
+import { expect, test } from 'vite-plus/test';
 import * as Y from 'yjs';
 
 import { InlineEditor } from '../../inline/index.js';

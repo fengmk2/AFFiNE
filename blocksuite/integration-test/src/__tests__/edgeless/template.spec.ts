@@ -3,7 +3,7 @@ import {
   type Template,
   type TemplateManager,
 } from '@blocksuite/affine/gfx/template';
-import { beforeEach, expect, test } from 'vitest';
+import { beforeEach, expect, test } from 'vite-plus/test';
 
 import { setupEditor } from '../utils/setup.js';
 

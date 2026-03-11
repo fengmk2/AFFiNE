@@ -1,6 +1,6 @@
 import { afterEach } from 'node:test';
 
-import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vite-plus/test';
 
 import { OpClient } from '../client';
 import { type MessageHandlers, transfer } from '../message';
@@ -12,7 +12,7 @@ interface TestOps extends OpSchema {
   sub: [Uint8Array, number];
 }
 
-declare module 'vitest' {
+declare module 'vite-plus/test' {
   interface TestContext {
     producer: OpClient<TestOps>;
     handlers: MessageHandlers;

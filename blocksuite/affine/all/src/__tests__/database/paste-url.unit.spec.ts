@@ -1,5 +1,5 @@
 import type { AffineTextAttributes } from '@blocksuite/affine-shared/types';
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 
 import { insertUrlTextSegments } from '../../../../blocks/database/src/properties/paste-url.js';
 

@@ -12,7 +12,7 @@ import {
   toDegree,
   toRadian,
 } from '@blocksuite/global/gfx';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 
 describe('Line', () => {
   it('should intersect', () => {

@@ -35,7 +35,6 @@ export class InitCommand extends Command {
         this.genWorkspaceInfo,
         'typescript',
       ],
-      [this.workspace.join('.oxlintrc.json'), this.genOxlintConfig, 'json'],
       ...this.workspace.packages
         .filter(p => p.isTsProject)
         .map(
@@ -60,28 +59,15 @@ export class InitCommand extends Command {
   }
 
   format(content: string, parser: BuiltInParserName) {
-    const config = JSON.parse(
-      readFileSync(this.workspace.join('.prettierrc').value, 'utf-8')
-    );
-    return format(content, { parser, ...config });
+    return format(content, {
+      parser,
+      singleQuote: true,
+      trailingComma: 'es5',
+      tabWidth: 2,
+      arrowParens: 'avoid',
+      printWidth: 80,
+    });
   }
-
-  genOxlintConfig = () => {
-    const json = JSON.parse(
-      readFileSync(this.workspace.join('.oxlintrc.json').value, 'utf-8')
-    );
-
-    const ignoreList = readFileSync(
-      this.workspace.join('.prettierignore').value,
-      'utf-8'
-    )
-      .split('\n')
-      .filter(line => line.trim() && !line.startsWith('#'));
-
-    json['ignorePatterns'] = ignoreList;
-
-    return JSON.stringify(json, null, 2);
-  };
 
   genWorkspaceInfo = () => {
     const list = yarnList();

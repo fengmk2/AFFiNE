@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin';
 import * as fg from 'fast-glob';
 import swc from 'unplugin-swc';
-import { defineConfig } from 'vitest/config';
+import { defineConfig } from 'vite-plus';
 
 const rootDir = fileURLToPath(new URL('.', import.meta.url));
 

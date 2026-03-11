@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 
 import { compareDateKeys } from '../core/group-by/compare-date-keys.js';
 

@@ -6,7 +6,7 @@ import { cleanup, render, screen, waitFor } from '@testing-library/react';
 import { useMemo } from 'react';
 import type { Subscriber } from 'rxjs';
 import { Observable } from 'rxjs';
-import { afterEach, describe, expect, test, vi } from 'vitest';
+import { afterEach, describe, expect, test, vi } from 'vite-plus/test';
 
 import { LiveData, useLiveData } from '..';
 

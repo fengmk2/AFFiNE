@@ -1,5 +1,5 @@
 import { TextSelection } from '@blocksuite/std';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 
 import { affine } from '../../test-utils';
 

@@ -5,7 +5,7 @@ import type { EdgelessRootBlockComponent } from '@blocksuite/affine/blocks/root'
 import { DefaultTool } from '@blocksuite/affine/blocks/surface';
 import { ColorScheme } from '@blocksuite/affine/model';
 import { ThemeProvider } from '@blocksuite/affine/shared/services';
-import { beforeEach, describe, expect, test } from 'vitest';
+import { beforeEach, describe, expect, test } from 'vite-plus/test';
 
 import { getDocRootBlock } from '../utils/edgeless.js';
 import { setupEditor } from '../utils/setup.js';

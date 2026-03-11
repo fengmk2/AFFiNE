@@ -1,7 +1,7 @@
 /**
  * @vitest-environment happy-dom
  */
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 
 import { getLastBlockCommand } from '../../../commands/block-crud/get-last-content-block';
 import { affine } from '../../../test-utils';

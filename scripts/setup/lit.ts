@@ -1,4 +1,4 @@
-import { vi } from 'vitest';
+import { vi } from 'vite-plus/test';
 
 if (typeof window !== 'undefined') {
   // Refs: https://github.com/jsdom/jsdom/blob/master/lib/jsdom/living/custom-elements/CustomElementRegistry-impl.js

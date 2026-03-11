@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 import { Array as YArray, Doc as YDoc, Map as YMap } from 'yjs';
 
 import { yjsGetPath, yjsObservePath } from '../yjs-observable';

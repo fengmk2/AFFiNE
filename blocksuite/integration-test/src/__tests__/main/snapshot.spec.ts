@@ -3,7 +3,7 @@ import { AffineSchemas } from '@blocksuite/affine/schemas';
 import { ZipTransformer } from '@blocksuite/affine/widgets/linked-doc';
 import type { PointLocation } from '@blocksuite/global/gfx';
 import { Schema } from '@blocksuite/store';
-import { beforeEach, expect, test } from 'vitest';
+import { beforeEach, expect, test } from 'vite-plus/test';
 
 import { wait } from '../utils/common.js';
 import { setupEditor } from '../utils/setup.js';

@@ -1,5 +1,5 @@
 import { DomRenderer } from '@blocksuite/affine-block-surface';
-import { beforeEach, describe, expect, test } from 'vitest';
+import { beforeEach, describe, expect, test } from 'vite-plus/test';
 
 import { wait } from '../utils/common.js';
 import { getSurface } from '../utils/edgeless.js';

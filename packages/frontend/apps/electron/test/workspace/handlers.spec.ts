@@ -3,7 +3,14 @@ import path from 'node:path';
 import { universalId } from '@affine/nbstore';
 import fs from 'fs-extra';
 import { v4 } from 'uuid';
-import { afterAll, afterEach, describe, expect, test, vi } from 'vitest';
+import {
+  afterAll,
+  afterEach,
+  describe,
+  expect,
+  test,
+  vi,
+} from 'vite-plus/test';
 
 const tmpDir = path.join(__dirname, 'tmp');
 const appDataPath = path.join(tmpDir, 'app-data');

@@ -1,6 +1,6 @@
 import type { Subscriber } from 'rxjs';
 import { from, Observable, switchMap } from 'rxjs';
-import { beforeEach, describe, expect, test, vi } from 'vitest';
+import { beforeEach, describe, expect, test, vi } from 'vite-plus/test';
 
 import {
   catchErrorInto,

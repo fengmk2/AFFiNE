@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 
 import { createORMClient, f, MemoryORMAdapter } from '../';
 

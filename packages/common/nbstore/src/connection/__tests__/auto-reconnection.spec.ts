@@ -1,4 +1,4 @@
-import { expect, test, vitest } from 'vitest';
+import { expect, test, vitest } from 'vite-plus/test';
 
 import { AutoReconnectConnection } from '../connection';
 

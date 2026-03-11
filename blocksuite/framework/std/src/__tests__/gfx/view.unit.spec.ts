@@ -2,7 +2,7 @@ import {
   createAutoIncrementIdGenerator,
   TestWorkspace,
 } from '@blocksuite/store/test';
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 
 import { effects } from '../../effects.js';
 import { GfxControllerIdentifier } from '../../gfx/identifiers.js';

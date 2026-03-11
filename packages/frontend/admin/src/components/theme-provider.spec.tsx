@@ -2,7 +2,7 @@
  * @vitest-environment happy-dom
  */
 import { render, screen } from '@testing-library/react';
-import { describe, expect, test, vi } from 'vitest';
+import { describe, expect, test, vi } from 'vite-plus/test';
 
 const { nextThemeProviderMock } = vi.hoisted(() => ({
   nextThemeProviderMock: vi.fn(({ children }: { children?: any }) => (

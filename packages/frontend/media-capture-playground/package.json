@@ -4,7 +4,7 @@
   "type": "module",
   "version": "0.26.3",
   "scripts": {
-    "dev:web": "vite",
+    "dev:web": "vp dev",
     "dev:server": "node --env-file-if-exists=.env --watch server/main.ts"
   },
   "dependencies": {
@@ -29,12 +29,12 @@
     "socket.io": "^4.7.4",
     "socket.io-client": "^4.8.3",
     "swr": "^2.3.7",
-    "tailwindcss": "^4.1.17",
-    "vite": "^7.2.7"
+    "tailwindcss": "^4.1.17"
   },
   "devDependencies": {
     "@types/fs-extra": "^11",
     "@types/react": "^19.0.1",
-    "@types/react-dom": "^19.0.2"
+    "@types/react-dom": "^19.0.2",
+    "vite-plus": "catalog:"
   }
 }

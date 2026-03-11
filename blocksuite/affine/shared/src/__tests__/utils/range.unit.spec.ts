@@ -5,7 +5,7 @@ import {
   it,
   type MockInstance,
   vi,
-} from 'vitest';
+} from 'vite-plus/test';
 
 import * as PointToRangeUtils from '../../utils/dom/point-to-range';
 import { handleNativeRangeAtPoint } from '../../utils/dom/point-to-range';

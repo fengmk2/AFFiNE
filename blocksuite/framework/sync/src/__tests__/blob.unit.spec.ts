@@ -1,5 +1,5 @@
 import { NoopLogger } from '@blocksuite/global/utils';
-import { beforeEach, describe, expect, it } from 'vitest';
+import { beforeEach, describe, expect, it } from 'vite-plus/test';
 
 import { BlobEngine } from '../blob/engine.js';
 import { MemoryBlobSource } from '../blob/impl/index.js';

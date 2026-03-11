@@ -1,5 +1,5 @@
 import { signal } from '@preact/signals-core';
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vite-plus/test';
 
 import type { GroupBy } from '../core/common/types.js';
 import type { DataSource } from '../core/data-source/base.js';

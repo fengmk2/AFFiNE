@@ -2,7 +2,7 @@
  * @vitest-environment happy-dom
  */
 import { act, renderHook } from '@testing-library/react';
-import { beforeEach, describe, expect, test, vi } from 'vitest';
+import { beforeEach, describe, expect, test, vi } from 'vite-plus/test';
 
 const mocked = vi.hoisted(() => {
   let queryState: {

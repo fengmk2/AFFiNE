@@ -1,4 +1,4 @@
-import { describe, expect, it, vi } from 'vitest';
+import { describe, expect, it, vi } from 'vite-plus/test';
 
 describe('redirect proxy allowlist', () => {
   it('blocks missing redirect_uri', async () => {
