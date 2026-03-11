@@ -88,7 +88,7 @@ jobs:
           node-version: '22'
           cache: true
       - name: Install dependencies
-        run: vp install --immutable --inline-builds
+        run: vp install --frozen-lockfile -- --inline-builds
         env:
           PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
           ELECTRON_SKIP_BINARY_DOWNLOAD: '1'
