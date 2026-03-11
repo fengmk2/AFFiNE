@@ -10,7 +10,7 @@ import { createDefaultDoc } from '@blocksuite/affine-shared/utils';
 import { TextSelection } from '@blocksuite/std';
 import type { InlineMarkdownMatch } from '@blocksuite/std/inline';
 import { Text } from '@blocksuite/store';
-import { beforeEach, describe, expect, test, vi } from 'vitest';
+import { beforeEach, describe, expect, test, vi } from 'vite-plus/test';
 
 import { defaultSlashMenuConfig } from '../../../../affine/widgets/slash-menu/src/config.js';
 import type {

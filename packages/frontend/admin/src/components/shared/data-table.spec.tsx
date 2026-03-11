@@ -3,7 +3,7 @@
  */
 import type { ColumnDef } from '@tanstack/react-table';
 import { cleanup, render, screen } from '@testing-library/react';
-import { afterEach, describe, expect, test, vi } from 'vitest';
+import { afterEach, describe, expect, test, vi } from 'vite-plus/test';
 
 import { SharedDataTable } from './data-table';
 

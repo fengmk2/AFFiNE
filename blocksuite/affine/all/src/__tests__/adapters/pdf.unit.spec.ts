@@ -2,7 +2,7 @@ import { DefaultTheme, NoteDisplayMode } from '@blocksuite/affine-model';
 import { PdfAdapter } from '@blocksuite/affine-shared/adapters';
 import type { BlockSnapshot, DocSnapshot } from '@blocksuite/store';
 import { AssetsManager, MemoryBlobCRUD } from '@blocksuite/store';
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 
 import { createJob } from '../utils/create-job.js';
 import { getProvider } from '../utils/get-provider.js';

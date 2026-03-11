@@ -1,6 +1,6 @@
 import { EdgelessLegacySlotIdentifier } from '@blocksuite/affine-block-surface';
 import { MouseButton } from '@blocksuite/std/gfx';
-import { afterEach, describe, expect, test, vi } from 'vitest';
+import { afterEach, describe, expect, test, vi } from 'vite-plus/test';
 
 import { PanTool } from '../tools/pan-tool.js';
 

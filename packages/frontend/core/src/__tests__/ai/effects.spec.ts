@@ -3,7 +3,7 @@ import {
   editorEffectElementTags,
   sharedEffectElementTags,
 } from '@affine/core/blocksuite/ai/effects/registry';
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 
 describe('ai effects registration split', () => {
   const editorTags = new Set<string>([

@@ -1,7 +1,7 @@
 import rehypeParse from 'rehype-parse';
 import rehypeStringify from 'rehype-stringify';
 import { unified } from 'unified';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 
 import { rehypeWrapInlineElements } from '../../../../adapters/html/rehype-plugins/wrap-inline-element';
 

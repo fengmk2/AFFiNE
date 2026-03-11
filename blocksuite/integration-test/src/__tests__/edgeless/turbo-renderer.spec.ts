@@ -8,7 +8,7 @@ import {
   ViewportTurboRendererExtension,
 } from '@blocksuite/affine-gfx-turbo-renderer';
 import { firstValueFrom } from 'rxjs';
-import { afterEach, beforeEach, describe, expect, test } from 'vitest';
+import { afterEach, beforeEach, describe, expect, test } from 'vite-plus/test';
 
 import { wait } from '../utils/common.js';
 import { addSampleNotes } from '../utils/doc-generator.js';

@@ -3,7 +3,7 @@ import { fileURLToPath } from 'url';
 import { StorybookConfig } from '@storybook/react-vite';
 import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin';
 import swc from 'unplugin-swc';
-import { mergeConfig } from 'vite';
+import { mergeConfig } from 'vite-plus';
 
 export default {
   stories: ['../src/ui/**/*.@(mdx|stories.@(js|jsx|ts|tsx))'],

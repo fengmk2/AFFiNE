@@ -4,7 +4,7 @@
 import { render } from '@testing-library/react';
 import type React from 'react';
 import { createContext, useContext } from 'react';
-import { expect, test } from 'vitest';
+import { expect, test } from 'vite-plus/test';
 
 import { ProviderComposer } from '..';
 

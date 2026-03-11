@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@types/debug": "^4.1.12",
-    "vitest": "^4.0.18"
+    "vite-plus": "catalog:"
   },
   "version": "0.26.3"
 }

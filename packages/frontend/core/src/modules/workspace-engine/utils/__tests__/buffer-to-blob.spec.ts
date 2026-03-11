@@ -1,6 +1,6 @@
 import { Buffer } from 'node:buffer';
 
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 
 import { isSvgBuffer } from '../buffer-to-blob';
 

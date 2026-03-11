@@ -1,5 +1,5 @@
 import { type SelectTag, t, typeSystem } from '@blocksuite/data-view';
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 
 describe('subtyping', () => {
   test('all type is subtype of unknown', () => {

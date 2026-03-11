@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 
 import { base64ToUint8Array, uint8ArrayToBase64 } from '../impls/cloud/socket';
 

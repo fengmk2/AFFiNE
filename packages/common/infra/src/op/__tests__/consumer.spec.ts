@@ -1,7 +1,7 @@
 import { afterEach } from 'node:test';
 
 import { Observable } from 'rxjs';
-import { beforeEach, describe, expect, it, vi } from 'vitest';
+import { beforeEach, describe, expect, it, vi } from 'vite-plus/test';
 
 import { OpConsumer } from '../consumer';
 import { type MessageHandlers, transfer } from '../message';
@@ -12,7 +12,7 @@ interface TestOps extends OpSchema {
   any: [any, any];
 }
 
-declare module 'vitest' {
+declare module 'vite-plus/test' {
   interface TestContext {
     consumer: OpConsumer<TestOps>;
     handlers: MessageHandlers;

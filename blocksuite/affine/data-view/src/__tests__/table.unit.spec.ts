@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 
 import type { FilterGroup } from '../core/filter/types.js';
 import { numberFormats } from '../property-presets/number/utils/formats.js';

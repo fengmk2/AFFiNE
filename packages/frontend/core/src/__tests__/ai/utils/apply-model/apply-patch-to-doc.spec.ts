@@ -6,12 +6,12 @@ import { getInternalStoreExtensions } from '@blocksuite/affine/extensions/store'
 import { StoreExtensionManager } from '@blocksuite/affine-ext-loader';
 import { createAffineTemplate } from '@blocksuite/affine-shared/test-utils';
 import type { Store } from '@blocksuite/store';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 
 import { applyPatchToDoc } from '../../../../blocksuite/ai/utils/apply-model/apply-patch-to-doc';
 import type { PatchOp } from '../../../../blocksuite/ai/utils/apply-model/markdown-diff';
 
-declare module 'vitest' {
+declare module 'vite-plus/test' {
   interface Assertion<T = any> {
     toEqualDoc(expected: Store, options?: { compareId?: boolean }): T;
   }

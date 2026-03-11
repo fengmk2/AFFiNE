@@ -6,7 +6,7 @@ import { GlobalDialogService } from '@affine/core/modules/dialogs/services/dialo
 import { UrlService } from '@affine/core/modules/url/services/url';
 import { Framework } from '@toeverything/infra';
 import { of } from 'rxjs';
-import { describe, expect, test, vi } from 'vitest';
+import { describe, expect, test, vi } from 'vite-plus/test';
 
 describe('AuthService oauthPreflight', () => {
   test('should always send client_nonce on web', async () => {

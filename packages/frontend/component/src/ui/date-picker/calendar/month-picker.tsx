@@ -129,7 +129,7 @@ export const MonthPicker = memo(function MonthPicker(
         {/* eslint-disable-next-line react/no-array-index-key */}
         {matrix.map((row, i) => {
           return (
-            // eslint-disable-next-line react/no-array-index-key
+            // oxlint-disable-next-line react/no-array-index-key
             <div key={i} className={styles.yearViewRow}>
               {row.map(month => {
                 const monthValue = month.format('YYYY-MM');

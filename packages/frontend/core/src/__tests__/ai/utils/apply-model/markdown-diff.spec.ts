@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 
 import { diffMarkdown } from '../../../../blocksuite/ai/utils/apply-model/markdown-diff';
 

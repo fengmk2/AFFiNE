@@ -2,7 +2,7 @@
  * @vitest-environment happy-dom
  */
 import type { TextSelection } from '@blocksuite/std';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 
 import { replaceSelectedTextWithBlocksCommand } from '../../../commands/model-crud/replace-selected-text-with-blocks';
 import { affine, block } from '../../../test-utils';

@@ -1,4 +1,11 @@
-import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+import {
+  afterEach,
+  beforeEach,
+  describe,
+  expect,
+  it,
+  vi,
+} from 'vite-plus/test';
 
 const { mockBase64ToUint8Array, mockConvertFileSrc } = vi.hoisted(() => ({
   mockBase64ToUint8Array: vi.fn((data: string) =>

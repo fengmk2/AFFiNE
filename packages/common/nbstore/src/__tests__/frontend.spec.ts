@@ -1,6 +1,6 @@
 import 'fake-indexeddb/auto';
 
-import { expect, test, vitest } from 'vitest';
+import { expect, test, vitest } from 'vite-plus/test';
 import { Awareness } from 'y-protocols/awareness.js';
 import { Doc as YDoc } from 'yjs';
 

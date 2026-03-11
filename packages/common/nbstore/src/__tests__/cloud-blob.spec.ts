@@ -7,7 +7,7 @@ import {
   setBlobMutation,
   workspaceBlobQuotaQuery,
 } from '@affine/graphql';
-import { afterEach, expect, test, vi } from 'vitest';
+import { afterEach, expect, test, vi } from 'vite-plus/test';
 
 import { CloudBlobStorage } from '../impls/cloud/blob';
 

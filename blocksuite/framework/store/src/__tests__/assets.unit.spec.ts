@@ -1,5 +1,5 @@
 import { BlockSuiteError } from '@blocksuite/global/exceptions';
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 
 import { getAssetName } from '../adapter/assets.js';
 

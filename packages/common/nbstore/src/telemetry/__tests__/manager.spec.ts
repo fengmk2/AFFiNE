@@ -1,6 +1,6 @@
 import 'fake-indexeddb/auto';
 
-import { expect, test, vi } from 'vitest';
+import { expect, test, vi } from 'vite-plus/test';
 
 import { TelemetryManager } from '../manager';
 import type { TelemetryContext, TelemetryEvent } from '../types';

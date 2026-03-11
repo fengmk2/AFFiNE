@@ -1,5 +1,5 @@
 import type { Subject } from 'rxjs';
-import { assert, beforeEach, describe, expect, it, vi } from 'vitest';
+import { assert, beforeEach, describe, expect, it, vi } from 'vite-plus/test';
 import { applyUpdate, type Doc, encodeStateAsUpdate } from 'yjs';
 
 import type { BlockModel, DocMeta, Store } from '../index.js';
@@ -382,7 +382,7 @@ describe('addBlock', () => {
 
     const doc0 = collection.createDoc('doc:home');
     const doc1 = collection.createDoc('space:doc1');
-    // eslint-disable-next-line @typescript-eslint/await-thenable
+    // oxlint-disable-next-line @typescript-eslint/await-thenable
     await Promise.all([doc0.load(), doc1.load()]);
     assert.equal(collection.docs.size, 2);
     const store0 = doc0.getStore({

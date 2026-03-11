@@ -1,4 +1,4 @@
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 
 import { getBezierParameters } from '../gfx/curve.js';
 import { PointLocation } from '../gfx/model/index.js';

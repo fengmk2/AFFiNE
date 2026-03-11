@@ -3,8 +3,8 @@ import path, { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin';
-import type { Plugin } from 'vite';
-import { defineConfig, loadEnv } from 'vite';
+import type { Plugin } from 'vite-plus';
+import { defineConfig, loadEnv } from 'vite-plus';
 import istanbul from 'vite-plugin-istanbul';
 import wasm from 'vite-plugin-wasm';
 

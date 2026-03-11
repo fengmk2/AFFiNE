@@ -2,7 +2,7 @@ import type { Blockquote, Paragraph } from 'mdast';
 import remarkMath from 'remark-math';
 import remarkParse from 'remark-parse';
 import { unified } from 'unified';
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from 'vite-plus/test';
 
 import { remarkGfm } from '../../../../adapters/markdown/gfm';
 import { remarkCallout } from '../../../../adapters/markdown/remark-plugins/remark-callout';

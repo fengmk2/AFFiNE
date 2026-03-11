@@ -19,7 +19,7 @@ import type {
 } from '@blocksuite/store';
 import { AssetsManager, MemoryBlobCRUD, Schema } from '@blocksuite/store';
 import { TestWorkspace } from '@blocksuite/store/test';
-import { describe, expect, test } from 'vitest';
+import { describe, expect, test } from 'vite-plus/test';
 
 import { AffineSchemas } from '../../schemas.js';
 import { createJob } from '../utils/create-job.js';
